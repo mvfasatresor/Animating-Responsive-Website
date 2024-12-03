@@ -10,12 +10,13 @@
     --bg-color: #0c0c0c;
     --text-color: #fff;
     --main-color: #ae8957;
-    --bg-font: 6.6rem;
+    --bg-font: 4.6rem;
     --p-font: 1rem;
 }
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 header{
     position: fixed;
@@ -74,7 +75,8 @@ header{
     display: none;
 }
 section{
-    padding: 0 14%;
+    padding: 0 7%;
+    position: ;
 }
 .hero{
     position: relative;
@@ -88,31 +90,36 @@ section{
     align-items: center;
     gap: 2rem;
 }
-.hero-image{
-    width: 100%;
+.hero-image img{
+    width:100%;
     height: auto;
+    
 }
 .hero-text h1{
-    font-size: var(--bg-font);
+    font-size: 4.87rem;
     font-weight: 900;
-    margin: 15px 0;
+    margin: 15px 100px;
 }
 .hero-text h5{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
+    margin-left: 100px;
 }
 .hero-text p{
     width: 100%;
-    max-width: 620px;
+    max-width: 500px;
     font-size: var(--p-font);
     line-height: 32px;
     color: var(--text-color);
     margin-bottom: 40px;
+    margin-left: 100px;
+    font-size: 0.87rem;
 }
 .main-hero{
     display: flex;
     align-items: center;
+    margin-left: 100px;
 }
 .btn{
     display:inline-block;
